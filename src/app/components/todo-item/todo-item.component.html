@@ -1,0 +1,17 @@
+<div class="todo">
+  <button
+    class="todo-btn"
+    aria-label="toggle"
+    [ngClass]="todo.completed ? 'todo-btn--completed' : ''"
+    (click)="updateTodo()"
+  ></button>
+  <p class="todo-text" [ngClass]="todo.completed ? 'todo-text--completed' : ''">
+    {{ todo.text }}
+  </p>
+  <button class="todo-delete-btn" (click)="deleteTodo()">
+    <img
+      src="../../assets/images/icon-cross.svg"
+      alt="Cross icon image to delete a todo"
+    />
+  </button>
+</div>
