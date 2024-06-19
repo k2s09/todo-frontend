@@ -1,0 +1,11 @@
+<section class="todo-card">
+  <app-todo-header />
+  <app-todo-new />
+
+  @if(todos().length > 0) {
+  <main class="todo-main">
+    <app-todo-list [todos]="filteredTodos()" />
+    <app-todo-options [todosLeft]="todosLeft()" />
+  </main>
+  }
+</section>
