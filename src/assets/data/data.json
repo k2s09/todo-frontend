@@ -1,0 +1,22 @@
+[
+  {
+    "completed": true,
+    "text": "Complete TS course",
+    "id": 1
+  },
+  {
+    "completed": false,
+    "text": "10 minutes meditation",
+    "id": 3
+  },
+  {
+    "completed": false,
+    "text": "Pick up groceries",
+    "id": 5
+  },
+  {
+    "completed": false,
+    "text": "Make breakfast",
+    "id": 6
+  }
+]
